@@ -1,0 +1,9 @@
+[user]
+name=Dyadyusha Artem
+email=artikool5@yandex.ru
+
+[core]
+editor=code
+
+[init]
+defaultBranch=main
