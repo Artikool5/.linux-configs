@@ -2,6 +2,9 @@
 name=Dyadyusha Artem
 email=artikool5@yandex.ru
 
+[credentials "https://github.com"]
+  username = Artikool5
+
 [core]
 editor=code
 

@@ -16,11 +16,12 @@ alias pacsrch='pacman -Qs'
 alias gic='git clone'
 alias exa='exa --icons --group-directories-first --color always --colour-scale -a'
 alias nv='nvim'
-alias xbox='xboxdrv --evdev /dev/input/event7 \
+abbr --add xbox 'xboxdrv  \
 	--evdev-absmap ABS_X=x1,ABS_Y=y1,ABS_RZ=x2,ABS_Z=y2,ABS_HAT0X=dpad_x,ABS_HAT0Y=dpad_y\
 	--axismap -Y1=Y1,-Y2=Y2\
 	--evdev-keymap BTN_TOP=x,BTN_TRIGGER=y,BTN_THUMB2=a,BTN_THUMB=b,BTN_BASE3=back,BTN_BASE4=start,BTN_BASE=lt,BTN_BASE2=rt,BTN_TOP2=lb,BTN_PINKIE=rb,BTN_BASE5=tl,BTN_BASE6=tr \
-	--mimic-xpad --silent'
+	--mimic-xpad --silent \
+  --evdev /dev/input/event'
 alias reflect="sudo reflector --country 'Germany,Russia' --sort rate --verbose --fastest 15 --save /etc/pacman.d/mirrorlist"
 
 
